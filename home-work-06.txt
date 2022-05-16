@@ -1,0 +1,18 @@
+1. Проанализируйте задания предыдущих уроков.
+a. В каких случаях необходима была явная передача указателя в качестве входных параметров и возвращаемых результатов или в качестве приёмника в методах?
+b. В каких случаях мы фактически имеем дело с указателями при передаче параметров, хотя явно их не указываем?
+
+2. Для арифметического умножения и разыменования указателей в Go используется один и тот же символ — оператор (*)
+ Как вы думаете, как компилятор Go понимает, в каких случаях в выражении имеется в виду умножение, а в каких — разыменование указателя?
+
+
+1. Analyze the assignments from previous lessons.
+a. In what cases was it necessary to explicitly pass a pointer as input parameters and return results, or as a receiver in methods?
+b. In what cases do we actually deal with pointers when passing parameters, although we do not explicitly specify them?
+
+2. For arithmetic multiplication and pointer dereferencing, Go uses the same symbol - the operator (*)
+ How do you think the Go compiler understands when an expression means multiplication and when it means pointer dereference?
+
+1.a. In the case of fmt.Scan(&a), you must explicitly get the value into the variable that was entered from the keyboard.
+1.b. Perhaps slices as variables when passing parameters.
+2. Perhaps the compiler first checks * for the number of arguments next to it.
