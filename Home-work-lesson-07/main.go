@@ -17,6 +17,7 @@ type MyBytesInterFace interface {
 func (my *MyBytesInterFace) Read(value byte) byte {
 
 	io.WriteString(value)
+	io.ReadAll(value)
 }
 
 func main() {
