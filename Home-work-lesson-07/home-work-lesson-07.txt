@@ -1,0 +1,5 @@
+1.	С какими интерфейсами мы уже сталкивались в предыдущих уроках?
+Answer:Used io.Reader
+
+2.	Посмотрите примеры кода в своём портфолио. Везде ли ошибки обрабатываются грамотно? Хотите ли вы переписать какие-либо функции?
+Answer: In previous lessons, we ignored error management, to do this we had to rewrite all the previous functions.We use the console to read information.
