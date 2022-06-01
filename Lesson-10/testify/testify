@@ -1,0 +1,7 @@
+
+когда вы пишите тесты на чистом Go без testify. Какой подход вам нравится больше и почему?
+
+Test method with testify is very convenient, less coding, strong documentation,
+We can use Testify to create unit tests that assure it operates as intended.
+When testing a component, we ideally want to isolate it completely to avoid having failures elsewhere to compromise our tests.
+This is especially harder when the component we want to test has dependencies on other components from different layers in our software.
